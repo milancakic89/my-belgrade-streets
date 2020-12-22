@@ -1,0 +1,15 @@
+{
+  "name": "streets",
+  "version": "1.0.0",
+  "description": "Streets of belgrade",
+  "main": "script.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "node-sass ./scss/main.scss ./styles.css -w"
+  },
+  "author": "Cakic Milan",
+  "license": "ISC"
+}

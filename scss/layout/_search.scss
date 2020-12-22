@@ -1,0 +1,26 @@
+#search{
+    padding: 1rem 1.8rem;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.search{
+    position: relative;
+    transition: all .2s linear;
+}
+.suggestion{
+    transition: all .2s linear;
+    font-size: 1.6rem;
+    opacity: 0;
+    position: absolute;
+    top: -6px;
+    left: 15px;
+}
+.search:hover .suggestion,
+.search:focus .suggestion,
+.search:active .suggestion{
+    transform: translateY(33px);
+    opacity: 0.6;
+    font-size: 1.6rem;
+}
